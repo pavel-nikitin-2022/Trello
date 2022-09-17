@@ -1,6 +1,5 @@
 {
   "compilerOptions": {
-    "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
     "allowJs": false,
@@ -15,7 +14,14 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "rootDir": "./src",
+    "outDir": "./dist" /* Specify the output directory. */,
+    "paths": {
+      "@components/*": ["./src/components/*"],
+      "@panels/*": ["./src/panels/*"],
+    },
+    "target": "ES2016",
+    "removeComments": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": ["src/**/*"],
 }

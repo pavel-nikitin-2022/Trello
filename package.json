@@ -10,10 +10,17 @@
     "lint": "eslint --ext ts,tsx,d.ts ./src"
   },
   "dependencies": {
+    "@atlaskit/icon": "^21.10.7",
+    "@craco/craco": "^6.4.5",
+    "@emotion/css": "^11.10.0",
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@vkontakte/icons": "^1.190.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "url": "^0.11.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.17",

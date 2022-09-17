@@ -1,1 +1,0 @@
-type Test = null | string;
