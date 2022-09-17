@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'CharlieDisplay';
+    src: url('./fonts/segoeuisl.ttf');
+}
+
+@font-face {
+    font-family: 'CharlieDisplayEasy';
+    src: url('./fonts/segoeuil.ttf');
+}
